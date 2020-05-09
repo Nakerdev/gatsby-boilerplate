@@ -9,3 +9,6 @@ sudo apt install libvips libvips-dev
 ```
 
 Another requirement of *sharp* is have node >= 11.0
+
+## Testing
+Tests are configured with *Jest* as specified in the ![Gatsby Documentation](https://www.gatsbyjs.org/docs/unit-testing/).
