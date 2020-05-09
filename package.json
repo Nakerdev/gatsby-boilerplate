@@ -15,6 +15,9 @@
     "react-helmet": "^6.0.0"
   },
   "devDependencies": {
+    "babel-jest": "^26.0.1",
+    "babel-preset-gatsby": "^0.4.1",
+    "jest": "^26.0.1",
     "prettier": "2.0.5"
   },
   "license": "MIT",
@@ -22,9 +25,8 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
-    "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "test": "jest"
   }
 }
